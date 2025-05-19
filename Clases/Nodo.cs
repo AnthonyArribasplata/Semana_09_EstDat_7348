@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Clases
 {
-    public class Class1
+    public class Nodo
     {
+        public int dato;
+        public Nodo der=null;
+        public Nodo izq=null;
     }
 }
